@@ -148,6 +148,11 @@ var defaults = {
   importProxyUrl: 'https://cors-it.herokuapp.com/?url=',
 
   /*
+   * Disable/enable editor folding tight to preview folding for operations, paths, definitions
+  */
+  editorFolding: false,
+
+  /*
    * Use this base path for resolving JSON Pointers ($ref).
    * This value should be a valid URL.
    *
